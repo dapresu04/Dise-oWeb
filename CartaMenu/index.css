@@ -1,0 +1,39 @@
+body{
+    background-color: bisque;
+}
+.container{
+    border-radius: 20px;
+    margin: 0 auto 30px;
+    max-width: 900px;
+    background-color: white;
+}
+
+img{
+    border-radius: 30px;
+    margin: 40px 100px 30px;
+    width: 650px;
+    height: 350px;
+}
+
+.main{
+    margin: 0 40px 40px;
+    background-color: white;
+}
+
+.tag{
+    margin: 40px 30px 30px;
+    border-radius: 20px;
+    background-color: rgb(229, 216, 241);
+}
+h3{
+    margin-left: 30px;
+}
+
+table{
+    width: 60%;
+    border-collapse: collapse;
+}
+td{
+    padding: auto;
+    border-bottom: 1px solid rgb(138, 134, 134);
+}
