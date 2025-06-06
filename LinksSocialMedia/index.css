@@ -4,11 +4,9 @@ body{
 
 .container{
     border-radius: 20px;
-    margin: 50px 450px 100px;
-    max-width: 300px;
+    margin: 50px 400px 100px;
     color: white;
     background-color: rgb(54, 54, 54);
-    align-items: center;
     text-align: center;
 }
 
@@ -31,6 +29,7 @@ h3{
     min-width: 180px;
     border-radius: 10px;
     margin: 0 auto 10px auto; /* auto en los lados para centrar */
+    display: block;
 }
 
 .btn:hover{
@@ -42,13 +41,13 @@ a{
    font-weight: bold;
 }
 
-@media (min-width: 300px) and (max-width: 800px) {
+@media (min-width: 300px) and (max-width: 1055px) {
   .container {
-    max-width: 800px;
+    max-width: 90%;
     color: white;
     background-color: rgb(54, 54, 54);
     align-items: center;
     text-align: center;
-    margin: 130px 40px 130px;
+      margin: 60px auto;
   }
 }
