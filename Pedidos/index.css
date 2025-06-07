@@ -1,0 +1,39 @@
+ .plan-section {
+            display: grid;
+            grid-template-columns: 40px 1fr auto;
+            align-items: center;
+            gap: 16px;
+            padding: 26px;
+            background-color: #f8fafc;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+.plan-section h5{
+    font-size: 15px;
+    margin: 0 0 4px 0;
+    font-weight: 900;
+}
+
+.plan-info p {
+            margin: 0;
+            font-size: 14px;
+            color: #64748b;
+}
+
+.plan-info a{
+    margin-left: 400px;
+}
+
+
+.btn-actions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-title{
+   text-align: center;
+}
+.card-text{
+    text-align: center;
+}
